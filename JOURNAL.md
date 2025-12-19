@@ -30,7 +30,7 @@ There's a couple key goals I have for this project:
 
 This project has already been similarly done by Phil's lab, but his project was more-so focused on acceleration instead of as a hobbyist development board, but this video will still be really useful to reference during development of this project! https://www.youtube.com/watch?v=8bw80LiCl7g
 
-## Connectors!!
+## Connectors!! - 4 Hours
 
 Now the first thing I have to decided, is what type of edge connector I want to use. Now NVMe SSD's are standard M.2 size, but have different type of "keys" which is essentially where the different holes are on it:
 
@@ -59,3 +59,15 @@ Now I was thinking I might be able to use a B+M-Key to be more compatible, but t
 And then this library I downloaded included the symbols already, so I'm all set to get working:
 
 ![[Pasted image 20251219115014.png]]
+
+## Edge connector wiring
+
+Now I want to get working on actually wiring the edge connector! The first thing I'm going to do is wire the power and ground.
+
+I decided to use one 100nF cap per pin, and then one 1uF + 10uF per group of them like so:
+
+![[Pasted image 20251219121205.png]]
+
+I'm referencing the M.2 PCI express electromechanical datasheet for pins https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf
+
+![[Pasted image 20251219121236.png]]
