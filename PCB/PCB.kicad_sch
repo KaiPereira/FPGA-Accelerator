@@ -5,6 +5,48 @@
 	(uuid "ed0095eb-57a0-4856-9ac4-7b40bd214a3a")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 15.24 15.24)
+		(size 38.1 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abfa3eef-7060-47ce-b174-8a558214cf5b")
+		(property "Sheetname" "M.2 M-Key Bus"
+			(at 15.24 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "m.2-m-key.kicad_sch"
+			(at 15.24 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
