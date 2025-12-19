@@ -46,4 +46,16 @@ Now 2280 is by far the most common, but I don't actually think I'll use all that
 
 The numbering system is really simple. 2242 means 22mm x 42mm, 2280 means 22mm x 80mm.
 
-So now i have to create my footprint and symbol for these edge connectors
+So now i have to create my footprint and symbol for these edge connectors. I can also easily change my form factor after making the footprint because it's legitimately just the height that changes.
+
+Lucky for me, someone's already made some M.2 footprints and symbols, so I'm going to use these ones from https://github.com/timonsku/M.2-Card-Footprints
+
+Now this person didn't actually make an M-Key, so I had to modify one of the existing ones to make it. M.2 footprints are really interesting, because they literally just remove the pins where the key is and don't really shift anything, so it's easy to make footprints for:
+
+![[Pasted image 20251219114720.png]]
+
+Now I was thinking I might be able to use a B+M-Key to be more compatible, but the ECP5 only has a soft SATA PHY or SERDES which would be really complicated and annoying to implement, so I'm just keeping it symbol.
+
+And then this library I downloaded included the symbols already, so I'm all set to get working:
+
+![[Pasted image 20251219115014.png]]
