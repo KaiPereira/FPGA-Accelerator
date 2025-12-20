@@ -8275,7 +8275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 355.6 229.87 0)
 			(effects
 				(font
@@ -9683,7 +9683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 242.57 231.14 0)
 			(effects
 				(font
@@ -11075,7 +11075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77a21a71-ba7d-4533-93a9-29a7deb45e71")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 91.44 118.7449 0)
 			(effects
 				(font
@@ -11093,7 +11093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 137.16 116.84 0)
 			(effects
 				(font
@@ -12469,7 +12469,7 @@
 		(instances
 			(project ""
 				(path "/ed0095eb-57a0-4856-9ac4-7b40bd214a3a"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12501,7 +12501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 48.26 201.93 0)
 			(effects
 				(font
@@ -13911,7 +13911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 138.43 234.95 0)
 			(effects
 				(font
@@ -15319,7 +15319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 361.95 115.57 0)
 			(effects
 				(font
@@ -16727,7 +16727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FGG484"
 			(at 250.19 114.3 0)
 			(effects
 				(font

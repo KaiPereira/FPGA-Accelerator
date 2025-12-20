@@ -99,3 +99,8 @@ Now that I know I want to use the Artix 7 FPGA, I need to add it into KiCad. I'm
 ![[Pasted image 20251220104108.png]]
 
 ![[Pasted image 20251220104157.png]]
+
+And lucky me, a footprint actually does exist!!
+
+![[Pasted image 20251220104406.png]]
+
