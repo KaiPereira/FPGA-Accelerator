@@ -60,7 +60,7 @@ And then this library I downloaded included the symbols already, so I'm all set 
 
 ![Pasted image 20251219115014.png](images/Pasted%20image%2020251219115014.png)
 
-## Edge connector and choosing an FPGA
+## Edge connector and choosing an FPGA - 4 Hours
 
 Now I want to get working on actually wiring the edge connector! The first thing I'm going to do is wire the power and ground.
 
@@ -83,3 +83,13 @@ But there's also the Xilinx Artix FPGA which is significantly more powerful, the
 So the Artix FPGA is probably a better option, because the price and accessibility of the ECP5 for the specs I need is just kind of out of scope. It'll also give me really good practice with a really popular AMD FPGA which could be really helpful for the future! 
 
 Now the Xilinx Aritix has MANY different packages, ranging from 12K to 215K LUTs and 720 to 13000 Kb of memory. I also need a minimum of 4 GTP transceivers which are essentially just high speed pins so 15K LUTs minimum.
+
+But let's stay within the price range, so I want under $20 for the FPGA and preferably over 25K LUTs which gives me many good options!
+
+This means I should also increase the size of my board from 2242 to 2280 which I actually wanted an excuse to do, and I can also add all those other features. 
+
+So in the end, I think I'm going to go with the XC7A50T-1FGG484C, the Xilinx Artix 7, with 50K LUTs, coming in at just $17 at minimum quantities, and having 484 pins!!! https://jlcpcb.com/partdetail/AMDXILINX-XC7A50T1FGG484C/C1521780
+
+I think this is honestly the perfect option, and I know Phil's Lab uses the same one, but it's the best for the job!
+
+
