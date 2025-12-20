@@ -60,7 +60,7 @@ And then this library I downloaded included the symbols already, so I'm all set 
 
 ![Pasted image 20251219115014.png](images/Pasted%20image%2020251219115014.png)
 
-## Edge connector wiring
+## Edge connector and choosing an FPGA
 
 Now I want to get working on actually wiring the edge connector! The first thing I'm going to do is wire the power and ground.
 
@@ -71,3 +71,15 @@ I decided to use one 100nF cap per pin, and then one 1uF + 10uF per group of the
 I'm referencing the M.2 PCI express electromechanical datasheet for pins https://picture.iczhiku.com/resource/eetop/sHksKPigIJigRbbx.pdf
 
 ![Pasted image 20251219121236.png](images/Pasted%20image%2020251219121236.png)
+
+I've decided to 0402 for 100nF, and 1uF, and then 0603 for 10uF to save as much space as possible, but still be pretty efficient at decoupling.
+
+Next, I need to choose what FPGA I actually want to use. The first thing that comes to mind is the ECP5. It's a small and cheap FPGA with SERDES so it works with PCIe which is really cool. 
+
+It has a faster (5G) and slower version, so I can have gen 2 PCIe speeds which is pretty cool. The minimum 5G FPGA costs around $18.50 https://jlcpcb.com/partdetail/Lattice-LFE5UM5G_25F8MG285C/C1551932 so it's a pretty good option.
+
+But there's also the Xilinx Artix FPGA which is significantly more powerful, the XC7A100T has nearly 4x the LUTS and is way more powerful, but is also significantly larger, having 4x lanes. The price is actually pretty good though, coming in at just $29.
+
+So the Artix FPGA is probably a better option, because the price and accessibility of the ECP5 for the specs I need is just kind of out of scope. It'll also give me really good practice with a really popular AMD FPGA which could be really helpful for the future! 
+
+Now the Xilinx Aritix has MANY different packages, ranging from 12K to 215K LUTs and 720 to 13000 Kb of memory. I also need a minimum of 4 GTP transceivers which are essentially just high speed pins so 15K LUTs minimum.
