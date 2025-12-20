@@ -92,4 +92,10 @@ So in the end, I think I'm going to go with the XC7A50T-1FGG484C, the Xilinx Art
 
 I think this is honestly the perfect option, and I know Phil's Lab uses the same one, but it's the best for the job!
 
+## Working on the FPGA
 
+Now that I know I want to use the Artix 7 FPGA, I need to add it into KiCad. I'm really lucky because KiCad actually has this symbol built in, but the footprint doesn't seem to come up, so I'll need to look into that:
+
+![[Pasted image 20251220104108.png]]
+
+![[Pasted image 20251220104157.png]]

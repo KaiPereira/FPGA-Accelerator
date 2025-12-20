@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "893a6070e6a1af49",
+        "id": "c8b7502feaa68f23",
         "type": "tabs",
         "children": [
           {
-            "id": "8a1c7a2baf8d0ef3",
+            "id": "07227920f18e6336",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,9 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "8a1c7a2baf8d0ef3",
+  "active": "95eb27a9e72794cd",
   "lastOpenFiles": [
+    "PCB/fp-info-cachegpze9W",
+    "PCB/~PCB.kicad_pcb.lck",
+    "images/Pasted image 20251220104157.png",
+    "images/Pasted image 20251220104108.png",
     "JOURNAL.md",
+    "PCB/~PCB.kicad_pro.lck",
+    "PCB/PCB-backups/PCB-2025-12-20_103721.zip",
     "JOURNAL.md~",
     "images/Pasted image 20251219121236.png",
     "images/Pasted image 20251219121205.png",
@@ -201,7 +207,6 @@
     "images",
     "images/Pasted image 20251216201028.png",
     "images/Pasted image 20251216200847.png",
-    "JOURNAL.md.md",
-    "JOURNAL.md.md~"
+    "JOURNAL.md.md"
   ]
 }
