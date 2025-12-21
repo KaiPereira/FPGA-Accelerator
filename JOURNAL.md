@@ -92,7 +92,7 @@ So in the end, I think I'm going to go with the XC7A50T-1FGG484C, the Xilinx Art
 
 I think this is honestly the perfect option, and I know Phil's Lab uses the same one, but it's the best for the job!
 
-## Working on the FPGA
+## Working on the FPGA - 3 Hours
 
 Now that I know I want to use the Artix 7 FPGA, I need to add it into KiCad. I'm really lucky because KiCad actually has this symbol built in, but the footprint doesn't seem to come up, so I'll need to look into that:
 
@@ -114,3 +114,18 @@ Next, I want to figure out what voltage lines I need for my project. Based off o
 - DDR3 Voltage, 1V5 for DDR3 I/O bank pins which are 1V5 for standard DDR3 (1V35 for DDR3L)
 
 ![Pasted image 20251220165608.png](images/Pasted%20image%2020251220165608.png)
+
+So now that I have all the theory worked out, I can get working on making the actual thing! 
+
+This was just a bunch of datasheet reading today and a couple video's, but I have a really good idea on how to do this now!
+
+## Decoupling time!
+
+Decoupling is fairly simple with the Artix 7, the datasheets tell you almost exactly how to do it:
+
+![[Pasted image 20251221082541.png]]
+![[Pasted image 20251221082558.png]]
+
+So just like that, I organized everything and added in the decoupling: 
+
+![[Pasted image 20251221082621.png]]
