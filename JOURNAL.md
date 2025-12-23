@@ -119,7 +119,7 @@ So now that I have all the theory worked out, I can get working on making the ac
 
 This was just a bunch of datasheet reading today and a couple video's, but I have a really good idea on how to do this now!
 
-## Decoupling time!
+## Decoupling time! - 5 Hours
 
 Decoupling is fairly simple with the Artix 7, the datasheets tell you almost exactly how to do it:
 
@@ -141,3 +141,11 @@ The [MAX20029](https://www.analog.com/en/products/max20029.html) is the lower co
 The [LTC3370](https://www.digikey.ca/en/products/detail/analog-devices-inc/LTC3370IUH-TRPBF/5155587) is a bit more overkill, with strong 2A channels, and really good efficiency characteristics. It's a bit larger and a bit more expensive, and it's a bit overkill, but you can have the same value inductors, and is also a fantastic option! 
 
 I've legitimately looked at 100's of buck converters, and these are probably the 2 best options! 
+
+In the end, I think I'm going to go with the MAX20029 because it has smaller inductors, is cheaper and perfectly fits the specs. Even though it's what phil uses, it honestly just is the superior option and the only downfall is I can't use any of the fixed variants, so I have to use quite a few voltage dividers. 
+
+I've done a lot of research today, so I think I'm going to hop off for now! 
+
+## Power management! 
+
+Now that I've found what PMIC I want to use, we need to add it into KiCad
