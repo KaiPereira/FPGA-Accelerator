@@ -148,4 +148,8 @@ I've done a lot of research today, so I think I'm going to hop off for now!
 
 ## Power management! 
 
-Now that I've found what PMIC I want to use, we need to add it into KiCad
+Now that I've found what PMIC I want to use, we need to add it into KiCad.
+
+But after some second thought, I've decided that the LTC3370 is actually probably a better choice because of it's higher current demands which means better power tolerance, and I want support for all the extra peripherals I might add too. 
+
+So let's add that in! 
