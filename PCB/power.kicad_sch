@@ -3281,7 +3281,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "2.2u"
 			(at 175.26 74.676 90)
 			(effects
 				(font
@@ -5212,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "2.2u"
 			(at 109.22 103.886 90)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "2.2u"
 			(at 175.26 103.886 90)
 			(effects
 				(font
@@ -5875,7 +5875,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "2.2u"
 			(at 109.22 74.676 90)
 			(effects
 				(font
