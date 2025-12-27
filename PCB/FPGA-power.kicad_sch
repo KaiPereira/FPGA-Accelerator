@@ -8988,13 +8988,23 @@
 	)
 	(text "FERRITE BEADS AND ANALOG RAILS"
 		(exclude_from_sim no)
-		(at 76.2 140.208 0)
+		(at 58.42 -1.524 0)
 		(effects
 			(font
 				(size 3.81 3.81)
 			)
 		)
 		(uuid "0cb77b05-7359-4e9a-9899-909ee75df2a6")
+	)
+	(text "Ferrite bead on VCCADC, MGTVCCADC, MGTVCCAUX, GNDADC"
+		(exclude_from_sim no)
+		(at 276.86 214.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "977b98ed-3ec8-4a0d-9957-4758fa6575b9")
 	)
 	(junction
 		(at 229.87 167.64)

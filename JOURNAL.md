@@ -167,3 +167,17 @@ I calculated the voltage dividers using VOUT = VFB(1 + R2/R1), and used 100K as 
 I also used 2.2uH inductors which are recommended by the datasheet for 2A, and they have a really low ESR to minimize power loss:
 
 ![Pasted image 20251225000820.png](images/Pasted%20image%2020251225000820.png)
+
+BUTTTT, this is kind of when I had a brain blast and decided to just outright switch to the MAX20029.
+
+I realized that I would be saving over $7 with the MAX20029 and it has way simpler power sequencing and smaller package, so it's just significantly better.
+
+So let's make the symbol for the MAX20029! I came up with this tall little symbol, I might make it larger but it kind of fits my needs:
+
+![[Pasted image 20251227142741.png]]
+
+And then it's really simple wiring, you just need pullups on PG to have a stable state, and also calculate the voltage dividers and frequency matching capacitors:
+
+![[Pasted image 20251227142844.png]]
+
+PG1 will go high when it's active, and the pullup just helps to ensure it gets there. There's no voltage divider on 1V0, because the VOUT is already 1V, and then the rest have voltage dividers to get there and frequency matching rounded down to the nearest E6 capacitor!
