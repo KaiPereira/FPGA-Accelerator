@@ -146,7 +146,7 @@ In the end, I think I'm going to go with the MAX20029 because it has smaller ind
 
 I've done a lot of research today, so I think I'm going to hop off for now! 
 
-## Power management! 
+## Power management! - 6 Hours
 
 Now that I've found what PMIC I want to use, we need to add it into KiCad.
 
@@ -181,3 +181,13 @@ And then it's really simple wiring, you just need pullups on PG to have a stable
 ![[Pasted image 20251227142844.png]]
 
 PG1 will go high when it's active, and the pullup just helps to ensure it gets there. There's no voltage divider on 1V0, because the VOUT is already 1V, and then the rest have voltage dividers to get there and frequency matching rounded down to the nearest E6 capacitor!
+
+## More decoupling and filtering
+
+Now that I've finished with my power supply, I need to figure out how to properly filter it for my analog rails! 
+
+This actually took me a really long time to figure out because I've never fully understood ferrite beads, but after a bit of research and talking with the KiCad guys, I've done a simple but effective implementation in my opinion:
+
+![[Pasted image 20251229001159.png]]
+
+I chose 600R@100MHz to filter out the high frequency noise moderately and it's low DCR so it has a minimal drop and is up to 2A. I made a little low pass filter LC filter by adding some shunts to ground, and added a bulk before the cap on MGTAVCC because it's higher current!

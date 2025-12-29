@@ -17386,16 +17386,6 @@
 		)
 		(uuid "0abbbdf1-1468-461b-9391-baadbe158903")
 	)
-	(text "FERRITE BEADS AND ANALOG RAILS"
-		(exclude_from_sim no)
-		(at 58.42 -1.524 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "0cb77b05-7359-4e9a-9899-909ee75df2a6")
-	)
 	(text "Decoupling before and after bead for high current rail!"
 		(exclude_from_sim no)
 		(at 107.95 224.79 0)
